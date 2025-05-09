@@ -1,0 +1,8 @@
+.yarn
+.idea
+*.iml
+out
+gen
+allure-report
+.allure
+test-results
