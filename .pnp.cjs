@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@playwright/test", "npm:1.52.0"],\
           ["@types/node", "npm:20.17.32"],\
           ["allure-js-commons", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.1"],\
-          ["allure-playwright", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.1"],\
+          ["allure-playwright", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.2"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=cef18b"]\
         ],\
         "linkType": "SOFT"\
@@ -149,12 +149,33 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
+      ["npm:3.2.2", {\
+        "packageLocation": "../../.yarn/berry/cache/allure-js-commons-npm-3.2.2-5b000e99a9-10c0.zip/node_modules/allure-js-commons/",\
+        "packageDependencies": [\
+          ["allure-js-commons", "npm:3.2.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:172f012e0bbc2540631176107be82badc6c5c931d52dea3d24e0b53fd07012af181c0fd5c0220d52510a4fb1211b1c5f6e4942b17d8025143421e5fe17312266#npm:3.2.2", {\
+        "packageLocation": "./.yarn/__virtual__/allure-js-commons-virtual-e9aba384f6/3/.yarn/berry/cache/allure-js-commons-npm-3.2.2-5b000e99a9-10c0.zip/node_modules/allure-js-commons/",\
+        "packageDependencies": [\
+          ["allure-js-commons", "virtual:172f012e0bbc2540631176107be82badc6c5c931d52dea3d24e0b53fd07012af181c0fd5c0220d52510a4fb1211b1c5f6e4942b17d8025143421e5fe17312266#npm:3.2.2"],\
+          ["@types/allure-playwright", null],\
+          ["allure-playwright", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.2"],\
+          ["md5", "npm:2.3.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/allure-playwright",\
+          "allure-playwright"\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.1", {\
         "packageLocation": "./.yarn/__virtual__/allure-js-commons-virtual-da02862bfa/3/.yarn/berry/cache/allure-js-commons-npm-3.2.1-dfa9460678-10c0.zip/node_modules/allure-js-commons/",\
         "packageDependencies": [\
           ["allure-js-commons", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.1"],\
           ["@types/allure-playwright", null],\
-          ["allure-playwright", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.1"],\
+          ["allure-playwright", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.2"],\
           ["md5", "npm:2.3.0"]\
         ],\
         "packagePeers": [\
@@ -165,20 +186,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["allure-playwright", [\
-      ["npm:3.2.1", {\
-        "packageLocation": "../../.yarn/berry/cache/allure-playwright-npm-3.2.1-d837c6f106-10c0.zip/node_modules/allure-playwright/",\
+      ["npm:3.2.2", {\
+        "packageLocation": "../../.yarn/berry/cache/allure-playwright-npm-3.2.2-532c58735b-10c0.zip/node_modules/allure-playwright/",\
         "packageDependencies": [\
-          ["allure-playwright", "npm:3.2.1"]\
+          ["allure-playwright", "npm:3.2.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.1", {\
-        "packageLocation": "./.yarn/__virtual__/allure-playwright-virtual-d170cb95fe/3/.yarn/berry/cache/allure-playwright-npm-3.2.1-d837c6f106-10c0.zip/node_modules/allure-playwright/",\
+      ["virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.2", {\
+        "packageLocation": "./.yarn/__virtual__/allure-playwright-virtual-172f012e0b/3/.yarn/berry/cache/allure-playwright-npm-3.2.2-532c58735b-10c0.zip/node_modules/allure-playwright/",\
         "packageDependencies": [\
-          ["allure-playwright", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.1"],\
+          ["allure-playwright", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.2"],\
           ["@playwright/test", "npm:1.52.0"],\
           ["@types/playwright__test", null],\
-          ["allure-js-commons", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.1"]\
+          ["allure-js-commons", "virtual:172f012e0bbc2540631176107be82badc6c5c931d52dea3d24e0b53fd07012af181c0fd5c0220d52510a4fb1211b1c5f6e4942b17d8025143421e5fe17312266#npm:3.2.2"]\
         ],\
         "packagePeers": [\
           "@playwright/test",\
@@ -846,7 +867,7 @@ const RAW_RUNTIME_STATE =
           ["@playwright/test", "npm:1.52.0"],\
           ["@types/node", "npm:20.17.32"],\
           ["allure-js-commons", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.1"],\
-          ["allure-playwright", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.1"],\
+          ["allure-playwright", "virtual:d50b4c726db549206cfc38d8f2ed6d1a6e615a63831a3a90d17a32aba5733836a211d893e0513bd5fbf4d9a5414c19cfe5d9578426b02ee4f06d386e7b175e68#npm:3.2.2"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=cef18b"]\
         ],\
         "linkType": "SOFT"\
